@@ -1,15 +1,6 @@
 # configuration of azure provider
 
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~> 3.30.0"
-    }
-  }
-
-  required_version = ">= 1.1.0"
-}
+# if you are using TFC, the required_provider is part of backend.tf (mandatory!)
 
 # set this feature to easily destroy your builds (experimental, not recommended for production)
 provider "azurerm" {
