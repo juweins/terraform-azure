@@ -1,4 +1,4 @@
-# 110_modules
+# 010_modules
 
 ## Overview
 In this example I demonstrate how you can easily deploy a Azure VNet by using the respective module found in the registry. Modules are developed to make provisioning of commonly used ressources easier. It does so, by bundling up various services into one module. (You may think of it as a preconfigured workflow) 
